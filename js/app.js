@@ -1,5 +1,5 @@
+const preloader = document.querySelector(".preloader-wrapper");
 window.onload = function () {
-  const preloader = document.querySelector(".preloader-wrapper");
   preloader.classList.add("preloader-hidden");
   setInterval(function () {
     preloader.classList.add("preloader-hidden");
