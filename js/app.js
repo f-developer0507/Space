@@ -3,7 +3,7 @@ window.onload = function () {
   preloader.classList.add("preloader-hidden");
   setInterval(function () {
     preloader.classList.add("preloader-hidden");
-  }, 1000);
+  }, 990);
 };
 
 const burgerBtn = document.querySelector(".header__burger");
